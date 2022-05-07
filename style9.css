@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.content-box {
+  width:300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.content-box2{
+  width:300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.content-box3{
+  width:300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.content-box:last-child {
+  margin-right: 0;
+}
+
+.content1-img {
+  height:150px;
+  background-image: url("img/flow01.png");
+  background-size: contain;
+  background-position: top;
+}
+
+.content2-img {
+  height:150px;
+  background-image: url("img/flow02.png");
+  background-size: contain;
+  background-position: top;
+}
+
+.content3-img {
+  height:150px;
+  background-image: url("img/flow03.png");
+  background-size: contain;
+  background-position: top;
+}
+
+span {
+  position: absolute;
+  top:0;
+  left:0;
+  background-color:#FF9A4B;
+  color:#fff;
+}
+
+h3 {
+  margin:15px 0 5px;
+}
+
+footer {
+  height:50px;
+  background-color:#AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 50px;
+    width: 100%;
+  }
+  
+  .content-box{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-box2 {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content-box3 {
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .content1-img {
+    height: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  
+   .content2-img {
+    height: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  
+   .content3-img {
+    height: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  
+  main {
+    width:100%;
+    display:block;
+  }
+  
+  footer {
+    height:50px;
+  }
+}
